@@ -1,17 +1,18 @@
 # Introducción  
 
-## ¿Qué es la Programación Orientada a Objetos?  
-(Explicación sobre POO y su importancia)  
+## ¿Qué es la Programación Orientada a Objetos y por qué es importante?  
+La programación orientada a objetos (POO) es un modelo de programación basado en la abstracción de entidades denominadas objetos, los cuales se organizan en clases. Cada objeto posee atributos, que representan sus características o datos propios, y métodos, que definen sus comportamientos o funcionalidades.
+Este paradigma es importante porque, al basarse en la idea de que todo en el mundo real puede modelarse como un objeto, permite una mejor estructura y organización en el diseño del software. Los objetos interactúan y colaboran entre sí mediante el intercambio de mensajes, lo que facilita la comunicación entre componentes del sistema. Además, la POO promueve la reutilización de código, ya que permite definir clases con comportamientos esperados, y favorece el mantenimiento del software, dado que los objetos pueden evaluarse y modificarse de manera individual. Gracias a este enfoque, es posible diseñar aplicaciones más robustas, flexibles y fáciles de mantener.
 
 ## Fundamentos de la POO  
 ### Encapsulamiento  
-(Ejemplo del mundo real)  
+Restricción del acceso a los datos de un objeto, permitiendo interactuar solo a través de métodos específicos. 
 ### Herencia  
-(Ejemplo del mundo real)  
+Permite que una clase derive características y comportamientos de otra, evitando duplicación de código. 
 ### Polimorfismo  
-(Ejemplo del mundo real)  
+Capacidad de un mismo método de comportarse de diferentes formas según la clase que lo implemente.
 ### Abstracción  
-(Ejemplo del mundo real)  
+Oculta los detalles internos y muestra solo lo esencial para su uso. 
 
 ## Requisitos iniciales del sistema  
 1. Permitir que un usuario registre un turno.  
