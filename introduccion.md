@@ -27,41 +27,79 @@ Oculta los detalles internos y muestra solo lo esencial para su uso.
 
 ---
 ## Casos de uso  
-### **Caso 1: Reservar un turno**  
-- **Actor**: Cliente  
-- **Descripción**: Un cliente selecciona un servicio y reserva un turno disponible.  
-- **Flujo principal**:  
-  1. El cliente accede al sistema.  
-  2. Selecciona un servicio.  
-  3. Escoge una fecha y hora disponible.  
-  4. Confirma la reserva.  
-- **Precondiciones**: El cliente debe estar registrado.  
-- **Postcondiciones**: El turno queda guardado en el sistema.
 
- ---
-###caso 1
+### caso 1
+   
+| Caso de uso        | Registro de usuarios                   |
+|--------------------|----------------------------------------|
+| **Actores**        | Pacientes, Médicos y Administrativos   |
+|____________________|________________________________________|
+| **Descripción**    | El administrativo registra los datos   |
+|                    | al centro de salud y crea un usuario   |
+|____________________|________________________________________|
+| **flujo principal**| 1. El administrativo ingresa al sistema|
+|                    | con sus credenciales                   |
+|                    | 2. Selecciona "Registrar nuevo usuario"|
+|                    | 3. Completa los datos del usuario      |
+|                    | 4. Guarda la información del usuario   |
+|____________________|________________________________________|
+| **Precondiciones** | El usuario no debe estar registrado    |
+|                    | en el sistema                          |
+|____________________|________________________________________|
+| **Postcondiciones**| El usuario queda registrado y puede    |
+|                    | acceder al sistema según su rol        |
+|____________________|________________________________________|
+| **Extiende a**     | "Validar datos del usuario"            |
+|____________________|________________________________________|
+| **Hereda de        |                                        |
+|____________________|________________________________________|
 
-| **Caso de uso**    | Reservar un turno       |
+
+### caso 2
+
+| **Caso de uso**    | Reservar un turno       |                         
 |--------------------|-------------------------|
-| **Actor**          | Cliente                 |
-| **Descripción**    |El cliente seleeciona un |
+| **Actores**        | Cliente                 |
+|____________________|_________________________|
+| **Descripción**    | El cliente seleeciona un|
 |                    | servicio y reserva un   |
 |                    | turno disponible        |
-|--------------------|-------------------------|
-| *Flujo principal*  | 1. El cliente accede    |  
+|____________________|_________________________|
+| **Flujo principal**| 1. El cliente accede    |  
 |                    | al sistema              |
 |                    | 2. Selecciona un servicio|
 |                    | 3. Escoge una fecha y   |
 |                    | hora disponible         |
 |                    | 4. Confirma la reserva  |
-|--------------------|-------------------------|
+|____________________|_________________________|
 | **Precondiciones** | El cliente debe estar   | 
 |                    | registrado              |
-|--------------------|-------------------------|
+|____________________|_________________________|
 |**Postcondiciones** | El turno queda guardado |
 |                    | en el sistema           |
- 
-(Otros 4 casos de uso similares)  
+|____________________|_________________________|
+| **Actores**        | Cliente                 |
+| **Descripción**    | El cliente seleeciona un|
+|                    | servicio y reserva un   |
+|                    | turno disponible        |
+|--------------------|-------------------------|
+| **Flujo principal**| 1. El cliente accede    |  
+|                    | al sistema              |
+|                    | 2. Selecciona un servicio|
+|                    | 3. Escoge una fecha y   |
+|                    | hora disponible         |
+|                    | 4. Confirma la reserva  |
+|____________________|_________________________|
+| **Precondiciones** | El cliente debe estar   | 
+|                    | registrado              |
+|____________________|_________________________|
+|**Postcondiciones** | El turno queda guardado |
+|                    | en el sistema           |
+|____________________|_________________________|
+| **Extiende a**     | "Gestión de turnos"     |
+|____________________|_________________________|
+| **Hereda de**      | "Registro de usuarios"  |
+|____________________|_________________________|
 
 ## Boceto inicial del diseño de clases  
 ![Diagrama de Clases](ruta-de-la-imagen.png)  
