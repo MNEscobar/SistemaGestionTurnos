@@ -84,7 +84,7 @@ Oculta los detalles internos y muestra solo lo esencial para su uso.
 | **Postcondición**    | Los usuarios quedan informados sobre la confirmación|
 |                      | o cancelación del turno                             |
 | **Extiende a**       | "Gestionar turnos"                                  |
-| ** Hereda de**       | "Reservar turno"                                    |
+| **Hereda de**       | "Reservar turno"                                    |
 
 ### Caso 4
 | **Caso de uso**      | Almacenar Historial Médico                          |
@@ -104,7 +104,7 @@ Oculta los detalles internos y muestra solo lo esencial para su uso.
 | **Extienda a**       |                                                     |
 | **Hereda de**        | "Gestionar datos de pacientes"                      |
 
-
+---
 
 
 
