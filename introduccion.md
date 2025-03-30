@@ -1,4 +1,4 @@
-# Introducción  💻🩺
+# Introducción 
 
 ---
 ## ¿Qué es la Programación Orientada a Objetos y por qué es importante?  
@@ -40,19 +40,24 @@ Oculta los detalles internos y muestra solo lo esencial para su uso.
 
  ---
 ###caso 1
+
 | **Caso de uso**    | Reservar un turno       |
+|--------------------|-------------------------|
 | **Actor**          | Cliente                 |
 | **Descripción**    |El cliente seleeciona un |
 |                    | servicio y reserva un   |
 |                    | turno disponible        |
+|--------------------|-------------------------|
 | *Flujo principal*  | 1. El cliente accede    |  
 |                    | al sistema              |
 |                    | 2. Selecciona un servicio|
 |                    | 3. Escoge una fecha y   |
 |                    | hora disponible         |
 |                    | 4. Confirma la reserva  |
+|--------------------|-------------------------|
 | **Precondiciones** | El cliente debe estar   | 
 |                    | registrado              |
+|--------------------|-------------------------|
 |**Postcondiciones** | El turno queda guardado |
 |                    | en el sistema           |
  
