@@ -1,7 +1,7 @@
-# SistemaGestionTurnos
+#SistemaGestionTurnos
 
-## Actividad Obligatoria N°1
-## Diseño Orientado a Objetos
+##Actividad Obligatoria N°1
+##Diseño Orientado a Objetos
 ---
 #### Nombre: *Matías Nicolás Escobar*
 #### Matrícula: *151251*
