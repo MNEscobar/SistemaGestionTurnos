@@ -118,4 +118,4 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
 
 
 ## Boceto inicial del diseño de clases  
-[Diagrama de Clases]("C:\Users\admin\Desktop\Programación\Diseño Orientado a Objetos\ChatGPT Image 10 abr 2025, 19_52_55.png")  
+[Diagrama de Clases](C:\Users\admin\Desktop\Programación\Diseño Orientado a Objetos\ChatGPT Image 10 abr 2025, 19_52_55.png)  
