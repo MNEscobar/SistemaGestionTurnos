@@ -2,7 +2,7 @@
 
 ## Actividad Obligatoria N°2
 ---
-|Diseño Orientado a Objetos| Programación En Sistemas|
+|                            Programación En Sistemas|
 |--------------------------|-------------------------|
 |Profesor                  | *Lic. Matías Velasquez* |
 | Nombre                   | *Matías Nicolás Escobar* |
