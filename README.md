@@ -1,7 +1,8 @@
 # SistemaGestionTurnos
 
-## Actividad Obligatoria N°2
 ## Diseño Orientado a Objetos
+## Actividad Obligatoria N°2
+
 ---
 |    Programación En Sistemas      |
 |----------------------------------|
