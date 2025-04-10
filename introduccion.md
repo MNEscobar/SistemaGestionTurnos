@@ -118,5 +118,5 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
 
 
 ## Boceto inicial del diseño de clases  
-![Diagrama de Clases](Diseño Orientado a Objetos/Diagrama de Clases.png)
+[![Diagrama de Clases](Programación\Diseño Orientado a Objetos\Diagrama de Clses.png)](Diseño Orientado a Objetos\Diagrama de Clses.png)
 
