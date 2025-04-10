@@ -15,4 +15,4 @@ El trabajo incluye la identificación de los requisitos iniciales, los casos de 
 ---
 ## Diagrama y Diseños  
  
-- [Anexos - Introducción al Diseño Orientado a Objetos](anexos.md)  
+- [Anexos](anexos.md)  
