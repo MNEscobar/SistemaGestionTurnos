@@ -13,6 +13,6 @@ Este proyecto consiste en el diseño conceptual de un sistema de gestión de tur
 
 El trabajo incluye la identificación de los requisitos iniciales, los casos de uso principales, el diseño de las clases y sus relaciones, y la incorporación de los pilares fundamentales de la programación orientada a objetos: abstracción, herencia y polimorfismo. El objetivo es aplicar los conceptos teóricos en una solución práctica y cercana a un escenario real.  
 ---
-## Anexos  
+## Diagrama y Diseños  
  
-- [Anexos - Introducción](anexos.md)  
+- [Anexos](anexos.md)  
