@@ -10,7 +10,7 @@ Este paradigma es importante porque, al basarse en la idea de que todo en el mun
 ### Encapsulamiento  
 Restricción del acceso a los datos de un objeto, permitiendo interactuar solo a través de métodos específicos.
 
-Un ejemplo de la vida real puede ser en un sistema de pedidos en un restaurante, el cliente hace el pedido al mozo pero no tiene acceso a como el mozo comanda su pedido ni como llega a su cocina ni como es preparado y vuelve a salir hacia su mesa.
+Un ejemplo de la vida real puede ser un sistema de pedidos en un restaurante, el cliente hace el pedido al mozo pero no tiene acceso a como el mozo comanda su pedido, ni como es preparado y vuelve a salir hacia su mesa.
 ### Herencia  
 Permite que una clase derive características y comportamientos de otra, evitando duplicación de código. 
 
