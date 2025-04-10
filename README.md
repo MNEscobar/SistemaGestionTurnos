@@ -5,8 +5,8 @@
 |Diseño Orientado a Objetos| Programación En Sistemas|
 |--------------------------|-------------------------|
 |Profesor                  | *Lic. Matías Velasquez* |
-| Nombre|                  |*Matías Nicolás Escobar* |
-|Matrícula|                | *151251*                |
+| Nombre                   | *Matías Nicolás Escobar* |
+|Matrícul a                | *151251*                |
 
 ---
 # Sistema de Gestión de Turnos 🖥️🩺
