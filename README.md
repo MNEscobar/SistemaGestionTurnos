@@ -1,11 +1,13 @@
 # SistemaGestionTurnos
 
-## Actividad Obligatoria N°1
-## Diseño Orientado a Objetos
+## Actividad Obligatoria N°2
 ---
-#### Nombre: *Matías Nicolás Escobar*
-#### Matrícula: *151251*
-#### Profesor: *Lic. Matias Velasquez*
+|Diseño Orientado a Objetos| Programación En Sistemas|
+|--------------------------|-------------------------|
+|Profesor                  | *Lic. Matías Velasquez* |
+| Nombre|                  |*Matías Nicolás Escobar* |
+|Matrícula|                | *151251*                |
+
 ---
 # Sistema de Gestión de Turnos 🖥️🩺
 ## Introducción:
