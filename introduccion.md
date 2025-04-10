@@ -17,8 +17,12 @@ Permite que una clase derive características y comportamientos de otra, evitand
 Un ejemplo de herencia, siguiendo el mismo ejemplo del caso anterior, en ese restaurant hay distintos tipos de empleados: mozos, cocineros y encargados. Todos ellos comparten ciertas características generales como nombre, horario de trabajo, y sueldo base. Sin embargo, cada uno tiene funciones particulares: el cocinero prepara los platos, el mozo toma pedidos y el encargado supervisa. Existe una clase general **Empleado** puede ser la clase padre, y **Mozo**, **Cocinero** y **Encargado** heredan de ella sus atributos y métodos comunes, pero también pueden tener comportamientos propios que los diferencian.
 ### Polimorfismo  
 Capacidad de un mismo método de comportarse de diferentes formas según la clase que lo implemente.
+
+Siguiendo con los empleados, supongamos que todos tienen un método llamado realizarTarea. Para un mozo, realizarTarea puede significar “tomar el pedido”; para un cocinero, “preparar el plato”; y para el encargado, “controlar el stock”. Un mismo método (con el mismo nombre) puede tener comportamientos diferentes según el tipo de objeto que lo implemente, aunque todos respondan a la misma interfaz o estructura común.
 ### Abstracción  
-Oculta los detalles internos y muestra solo lo esencial para su uso. 
+Oculta los detalles internos y muestra solo lo esencial para su uso.
+
+Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes ni el proceso exacto de cocción. Solo interactúa con un menú que muestra los platos disponibles, sus nombres, una breve descripción y el precio.
 
 ---
 ## Requisitos iniciales del sistema  
