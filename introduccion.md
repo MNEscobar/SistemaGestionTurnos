@@ -111,7 +111,20 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
 | **Extienda a**       |                                                     |
 | **Hereda de**        | "Gestionar datos de pacientes"                      |
 
----
+### Caso 5
+| **Caso de uso**      | Consultar Turnos Asignados                                                                        |
+|----------------------|---------------------------------------------------------------------------------------------------|
+| **Actor**	           | Médico                                                                                            |
+| **Descripción**      | El médico accede al sistema para visualizar la lista de turnos asignados en una fecha determinada.|
+| **Flujo Principal**  | 1. El médico accede al sistema con sus credenciales.                                              |
+|                      | 2. Selecciona la opción “Consultar turnos”.                                                       |
+|                      | 3. Elige una fecha del calendario.                                                                |
+|                      | 4. El sistema muestra la lista de turnos con horario, nombre del paciente y motivo de consulta.   |
+|                      | 5. El médico puede filtrar o buscar turnos por nombre del paciente o por horario.                 |
+| **Precondición**     | El médico debe tener al menos un turno asignado en el sistema.                                    |
+| **Postcondición**    | El médico visualiza sus turnos organizados y puede planificar su jornada.                         |
+| **Extiende a**       |                                                                                                   |
+| **Hereda de**        | “Gestionar turnos médicos”                                                                        |
 
 
 
