@@ -9,9 +9,11 @@ Este paradigma es importante porque, al basarse en la idea de que todo en el mun
 ## Fundamentos de la POO  
 ### Encapsulamiento  
 Restricción del acceso a los datos de un objeto, permitiendo interactuar solo a través de métodos específicos.
+
 Un ejemplo de la vida real puede ser en un sistema de pedidos en un restaurante, el cliente hace el pedido al mozo pero no tiene acceso a como el mozo comanda su pedido ni como llega a su cocina ni como es preparado y vuelve a salir hacia su mesa.
 ### Herencia  
 Permite que una clase derive características y comportamientos de otra, evitando duplicación de código. 
+
 Un ejemplo de herencia, siguiendo el mismo ejemplo del caso anterior, en ese restaurant hay distintos tipos de empleados: mozos, cocineros y encargados. Todos ellos comparten ciertas características generales como nombre, horario de trabajo, y sueldo base. Sin embargo, cada uno tiene funciones particulares: el cocinero prepara los platos, el mozo toma pedidos y el encargado supervisa. Existe una clase general **Empleado** puede ser la clase padre, y **Mozo**, **Cocinero** y **Encargado** heredan de ella sus atributos y métodos comunes, pero también pueden tener comportamientos propios que los diferencian.
 ### Polimorfismo  
 Capacidad de un mismo método de comportarse de diferentes formas según la clase que lo implemente.
