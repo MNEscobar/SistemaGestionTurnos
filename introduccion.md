@@ -118,5 +118,5 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
 
 
 ## Boceto inicial del diseño de clases  
-[Diagrama de Clases](https://www.umletino.com/umletino.html)
+[Diagrama de Clases]("C:\Users\admin\Desktop\Programación\Diseño Orientado a Objetos\Diagram 2025-04-11 21-12-45.uxf")
 
