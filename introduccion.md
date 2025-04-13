@@ -70,8 +70,7 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
 | **Caso de uso**      | Notificación de Confirmación o Cancelación de Turno                                  |
 |--------------------- |--------------------------------------------------------------------------------------|
 | **Actores**          | Sistema                                                                              |
-| **Descripción**      | El sistema notifica a los usuarios participes del                                    |
-|                      | turno                                                                                |
+| **Descripción**      | El sistema notifica a los usuarios participes del turno                              |
 | **Flujo Principal**  | 1. Un administrativo o paciente confirma o cancela un turno                          |
 |                      | 2. El sistema procesa el cambio                                                      |
 |                      | 3. Se envía una notificación automática al paciente y al médico por correo o mensaje |
