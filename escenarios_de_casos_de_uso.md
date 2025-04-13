@@ -1,3 +1,5 @@
+# Escenario de casos de usos
+
 - Escenario de caso de uso 1 - Registrar un nuevo usuario
 - Escenario de caso de uso 2 - Reservar turno
 - Escenario de caso de uso 3 - Notificar turno
