@@ -11,3 +11,4 @@ Este caso de uso permite que un paciente reserve un turno médico según la disp
    El paciente debe estar registrado e iniciar sesión.
 - Poscondición:
    El turno queda agendado para el médico y el paciente.
+![](Escenario_2.png)
