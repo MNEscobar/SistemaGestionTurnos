@@ -1,1 +1,0 @@
-- [Tarjetac CRC] (tarjetas_CRC.md)
