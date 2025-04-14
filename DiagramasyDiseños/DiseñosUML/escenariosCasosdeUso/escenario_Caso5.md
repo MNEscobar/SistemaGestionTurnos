@@ -9,3 +9,5 @@ Este caso de uso permite al médico visualizar su agenda de turnos, organizando 
 ## Condiciones:
  - Precondición: El médico debe estar autenticado y tener turnos asignados.
  - Poscondición: El médico tiene acceso a una vista organizada de su agenda médica.
+
+![](Escenario_5.png)
