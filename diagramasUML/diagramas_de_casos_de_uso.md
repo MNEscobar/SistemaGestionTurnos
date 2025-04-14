@@ -1,7 +1,7 @@
 # Diagrama de casos de uso
 
 
-- [**Caso de uso 1 - Registar un nuevo usuario**()
+- [**Caso de uso 1 - Registar un nuevo usuario**](diagramasCasosDeUsos/caso_de_uso1.md)
 
 - [**Caso de Uso 2 - Reservar turno**()
   
