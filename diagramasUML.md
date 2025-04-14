@@ -1,2 +1,0 @@
-- [Diagrama de Casos de Uso](DiagramasyDiseños/DiseñosUML/diagramas_de_casos_de_uso.md)
-- [Escenarios de Caso de Uso](DiagramasyDiseños/DiseñosUML/escenarios_de_casos_de_uso.md)
