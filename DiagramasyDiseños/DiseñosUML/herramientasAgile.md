@@ -1,1 +1,1 @@
-- [Tarjetac CRC](DiagramasyDiseños/DiseñosUML/tarjetas_CRC.md)
+- [Tarjetac CRC](tarjetas_CRC.md)
