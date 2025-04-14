@@ -12,4 +12,4 @@ Este caso de uso permite que un nuevo usuario se registre en el sistema. El sist
  - Poscondición:
      El usuario queda registrado en el sistema y puede iniciar sesión según su rol asignado.
 
- 
+ ![](Escenario_1.png)
