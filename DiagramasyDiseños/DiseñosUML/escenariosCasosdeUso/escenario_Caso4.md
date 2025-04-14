@@ -13,3 +13,5 @@ Este caso de uso permite que el médico registre o actualice el historial médic
 
  - Precondición: El paciente debe tener un perfil clínico.
  - Poscondición: La nueva información queda registrada y disponible para futuras consultas.
+
+![](Escenario_4.png)
