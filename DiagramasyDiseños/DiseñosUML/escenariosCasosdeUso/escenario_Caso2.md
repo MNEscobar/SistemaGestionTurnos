@@ -1,4 +1,4 @@
-#Reservar Turno Médico
+# Reservar Turno Médico
 ## Descripción:
 Este caso de uso permite que un paciente reserve un turno médico según la disponibilidad del profesional de salud. El sistema gestiona la agenda médica, evitando conflictos de horario.
 ## Escenario principal:
