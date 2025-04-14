@@ -11,3 +11,4 @@ Se actualiza el estado de un turno (creación, modificación o cancelación).
 ## Condiciones:
  - Precondición: El turno debe existir en el sistema.
  - Poscondición: El paciente y el médico están informados del estado actual del turno.
+![](Escenario_3.png)
