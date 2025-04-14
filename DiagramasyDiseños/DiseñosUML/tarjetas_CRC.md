@@ -9,7 +9,7 @@ Las tarjetas CRC (Clase, Responsabilidad, Colaboración) son una herramienta uti
 Estas tarjetas son útiles para pensar en el diseño de sistemas desde la perspectiva de los objetos que lo componen, promoviendo la separación de responsabilidades y la colaboración entre entidades.
 #### Tarjeta CRC: Usuario
 El Usuario es la clase base del sistema, que representa a cualquier persona registrada, ya sea paciente, médico o administrativo. Su principal responsabilidad es gestionar su autenticación y sus datos personales. Interactúa con el sistema de registro y otras clases derivadas según su rol.
-![](DiagramasyDiseños/DiseñosUML/Imagenes/CRC_usuario.png)
+![](Imagenes/CRC_usuario.png)
 
 #### Tarjeta CRC: Paciente
 El Paciente hereda de Usuario y representa a quienes utilizan el sistema para recibir atención médica. Puede reservar turnos, consultar sus citas y acceder a su historial médico. Colabora estrechamente con la clase Turno y Médico para llevar adelante sus acciones.
