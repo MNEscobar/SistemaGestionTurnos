@@ -2,4 +2,4 @@
  
 - [Introducción al Diseño Orientado a Objetos](introduccion.md)  
 - [Diagramas UML](diagramasUML.md)
-- [Herramientas Agile](herramientasAgile.md)
+- [Herramientas Agile](DiagramasyDiseños/DiseñosUML/herramientasAgile.md)
