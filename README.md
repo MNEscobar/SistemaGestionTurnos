@@ -1,10 +1,10 @@
 # Sistema Gestion de Turnos - Diseño del Sistema
 ---
 
-### Escobar Matías Nicolás
-### Diseño Orientado a Objetos - Programación En Sistemas 
-### Profesor: Lic. Matías Velasquez
-### Año: 2025  
+#### Escobar Matías Nicolás
+#### Diseño Orientado a Objetos - Programación En Sistemas 
+#### Profesor: Lic. Matías Velasquez
+#### Año: 2025  
 ---
 
 ## Introducción:
