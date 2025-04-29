@@ -1,4 +1,4 @@
-# Escenario de casos de usos
+# Escenarios de casos de usos
 
 # Registrar Nuevo Usuario
 ## Descripción
