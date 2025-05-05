@@ -1,6 +1,0 @@
-**Cargar historial médico:** El médico accede al sistema y cambia el hisorial médico de un paciente determinado.
-
-[Caso 4](https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&target=blank&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Diagrama%20Caso%20de%20Uso%204.drawio&dark=auto#R%3Cmxfile%3E%3Cdiagram%20name%3D%22P%C3%A1gina-1%22%20id%3D%2208q_R25VppH2O6Z6lk2x%22%3E1VZNc5swEP01HJsxCGxzdEmaHOIZz3imTY4K2oA6AlFZ2Li%2FvosRH4J8uBN3OjmhfVqt2LdvFxwSZdWtokW6lgyE481Y5ZBrx%2FPcme%2Fjo0aODRIQAySKM%2BPUA1v%2BG9qTBi05g53lqKUUmhc2GMs8h1hbGFVKHmy3ZynsWwuawATYxlRM0R%2Bc6bRBl96ix%2B%2BAJ2l7szsPm52Mts4mk11KmTwMIHLjkEhJqZtVVkUgavJaXppz317Z7V5MQa7PObAn37ePjFdr8bDYJvfpL%2FiZfSGkCbOnojQZr52IOKuQ8ViaF9fHlg3MoaiXZSZWsZbKIV%2F3oDRHvu7pE4iN3HHNZY4uT1JrmQ0cVoIn9YaWBaKpzgQaLi5lqQXPIeoqOENwmp1JuA4H1QAy2d6CzECrI7q0u0vDvJGeNzf2oS9kYKB0UMOFwaiRTtJF7tnFhSH4b8j2J2RPGIacrWrZopXLHGymlCxzBsxQBBXXD%2FX6KjDW42Dnuhoax4GxAcUxIVAtlmNyTSDfX7TAKdZVGJIW6AOerOPQGod8tXo7WaoYzhCkpioB%2FZZj0DgCsxp4qoZ3qt1iCgTVfG%2B3%2FUsSMDdsJMfcOrGR0BYbmY1U1GRuTg3bdBSom3wmkDuWY8PMJNBJkV3aHxBpMBFphDdShdgd32HTc1oHeWtM4DU4n2vxHlKuYVvQU80P%2BImwBX2JLg9GfM2mXe56LxR%2B%2Bc%2FafD5hcENjjinC5x6oZO6PqA7%2B80BdXHagtoPQtYdg8M4I%2FMC0m3%2FOaYddZ39axyU%2Bf9qNJLUMLzTt0Oz%2FrRr3%2Fg%2BV3PwB%3C%2Fdiagram%3E%3C%2Fmxfile%3E)
-
-
-![](CasoDeUso4.png)
