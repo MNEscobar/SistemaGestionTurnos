@@ -41,7 +41,8 @@ El Administrativo, una subclase de Usuario, cumple funciones de gestión como re
 La clase Turno es clave para el funcionamiento del sistema. Representa una cita médica programada, con fecha, hora, paciente y médico asociados. Se comunica con Paciente, Médico y el sistema de notificaciones para reflejar el estado y coordinación de la atención médica.
 
 
-![CRC Turno](https://drive.google.com/uc?export=view&id=1fK9tHqZOkacc-2sLm4kisbIA1p-2qsvB)
+![CRC Turno](https://drive.google.com/uc?export=view&id=1XL7KlIIihU8d6SeBHNJHX3IGFfy-r8Px)
+
 
 
 [Planilla Tarjetas CRC](https://docs.google.com/spreadsheets/d/13zP70Rb4vhZzoa_iHvP-ABAVd9V9eto1/edit?usp=drive_link&ouid=113574952751855851904&rtpof=true&sd=true)
