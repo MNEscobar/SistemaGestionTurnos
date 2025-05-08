@@ -14,7 +14,9 @@ Este caso de uso permite que un nuevo usuario se registre en el sistema. El sist
  - Poscondición:
      El usuario queda registrado en el sistema y puede iniciar sesión según su rol asignado.
 
- ![](DiagramasyDiseños/DiseñosUML/escenariosCasosdeUso/Escenario_1.png)
+![Escenario 1](https://drive.google.com/uc?export=view&id=1e297fVxjh140YwTLtoh5SnmDS_MmVUkq)
+
+[Drive](https://drive.google.com/file/d/1e297fVxjh140YwTLtoh5SnmDS_MmVUkq/view?usp=sharing)
 
 ---
 
@@ -31,7 +33,10 @@ Este caso de uso permite que un paciente reserve un turno médico según la disp
    El paciente debe estar registrado e iniciar sesión.
 - Poscondición:
    El turno queda agendado para el médico y el paciente.
-![](DiagramasyDiseños/DiseñosUML/escenariosCasosdeUso/Escenario_2.png)
+  
+![Escenario 2](https://drive.google.com/uc?export=view&id=1ydCZEmDSRlIgWquu5m5vW4EKmfGdwnrt)
+
+[Drive](https://drive.google.com/file/d/1ydCZEmDSRlIgWquu5m5vW4EKmfGdwnrt/view?usp=sharing)
 
 ---
 
@@ -48,7 +53,10 @@ Se actualiza el estado de un turno (creación, modificación o cancelación).
 ## Condiciones:
  - Precondición: El turno debe existir en el sistema.
  - Poscondición: El paciente y el médico están informados del estado actual del turno.
-![](DiagramasyDiseños/DiseñosUML/escenariosCasosdeUso/Escenario_3.png)
+ - 
+![Escenario 3](https://drive.google.com/uc?export=view&id=1Rk8udBbV8Kws-ow4S0Tq7IVZyu84m_eD)
+
+[Drive](https://drive.google.com/file/d/1Rk8udBbV8Kws-ow4S0Tq7IVZyu84m_eD/view?usp=sharing)
 
 ---
 
@@ -68,7 +76,9 @@ Este caso de uso permite que el médico registre o actualice el historial médic
  - Precondición: El paciente debe tener un perfil clínico.
  - Poscondición: La nueva información queda registrada y disponible para futuras consultas.
 
-![](DiagramasyDiseños/DiseñosUML/escenariosCasosdeUso/Escenario_4.png)
+![Escenario 4](https://drive.google.com/uc?export=view&id=1N8Gk-yAdOFG1qdNmZdFAMwuYxDpHryNu)
+
+[Drive](https://drive.google.com/file/d/1N8Gk-yAdOFG1qdNmZdFAMwuYxDpHryNu/view?usp=sharing)
 
 ---
 
@@ -84,4 +94,8 @@ Este caso de uso permite al médico visualizar su agenda de turnos, organizando 
  - Precondición: El médico debe estar autenticado y tener turnos asignados.
  - Poscondición: El médico tiene acceso a una vista organizada de su agenda médica.
 
-![](DiagramasyDiseños/DiseñosUML/escenariosCasosdeUso/Escenario_5.png)
+![Escenario 5](https://drive.google.com/uc?export=view&id=10ifbGYNAuF7UfngxwvN9xkXyOZ1xGrCO)
+
+[Drive](https://drive.google.com/file/d/10ifbGYNAuF7UfngxwvN9xkXyOZ1xGrCO/view?usp=sharing)
+
+[Planillas escenarios casos de uso](https://docs.google.com/spreadsheets/d/13zP70Rb4vhZzoa_iHvP-ABAVd9V9eto1/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
