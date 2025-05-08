@@ -13,6 +13,12 @@ El Usuario es la clase base del sistema, que representa a cualquier persona regi
 
 ![](https://drive.google.com/file/d/1UHAS-9jTJmWhNI-kWkNaWXMvDgZkTTh3/view?usp=drive_link)
 
+## Vista previa
+
+![Imagen desde Google Drive](https://drive.google.com/uc?export=view&id=1YPQzEEtq3POo9bAft8kiHpnSRBdKfGg_)
+
+📎 [Abrir imagen en Google Drive](https://drive.google.com/file/d/1YPQzEEtq3POo9bAft8kiHpnSRBdKfGg_/view?usp=drive_link)
+
 #### Tarjeta CRC: Paciente
 El Paciente hereda de Usuario y representa a quienes utilizan el sistema para recibir atención médica. Puede reservar turnos, consultar sus citas y acceder a su historial médico. Colabora estrechamente con la clase Turno y Médico para llevar adelante sus acciones.
 
@@ -31,9 +37,12 @@ El Administrativo, una subclase de Usuario, cumple funciones de gestión como re
 
 ![](https://drive.google.com/file/d/1iB1J7rYfpsRZQcju1tuFjiO374Z4T2qY/view?usp=drive_link)
 
-[Planilla Tarjetas CRC](https://docs.google.com/spreadsheets/d/13zP70Rb4vhZzoa_iHvP-ABAVd9V9eto1/edit?usp=drive_link&ouid=113574952751855851904&rtpof=true&sd=true)
+
 #### Tarjeta CRC: Turno
 La clase Turno es clave para el funcionamiento del sistema. Representa una cita médica programada, con fecha, hora, paciente y médico asociados. Se comunica con Paciente, Médico y el sistema de notificaciones para reflejar el estado y coordinación de la atención médica.
 
 
 ![](https://drive.google.com/file/d/1fK9tHqZOkacc-2sLm4kisbIA1p-2qsvB/view?usp=drive_link)
+
+
+[Planilla Tarjetas CRC](https://docs.google.com/spreadsheets/d/13zP70Rb4vhZzoa_iHvP-ABAVd9V9eto1/edit?usp=drive_link&ouid=113574952751855851904&rtpof=true&sd=true)
