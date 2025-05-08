@@ -15,9 +15,6 @@ El Usuario es la clase base del sistema, que representa a cualquier persona regi
 
 ## Vista previa
 
-![Imagen desde Google Drive](https://drive.google.com/uc?export=view&id=1YPQzEEtq3POo9bAft8kiHpnSRBdKfGg_)
-
-📎 [Abrir imagen en Google Drive](https://drive.google.com/file/d/1YPQzEEtq3POo9bAft8kiHpnSRBdKfGg_/view?usp=drive_link)
 
 #### Tarjeta CRC: Paciente
 El Paciente hereda de Usuario y representa a quienes utilizan el sistema para recibir atención médica. Puede reservar turnos, consultar sus citas y acceder a su historial médico. Colabora estrechamente con la clase Turno y Médico para llevar adelante sus acciones.
