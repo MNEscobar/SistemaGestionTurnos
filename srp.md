@@ -3,8 +3,11 @@
 ## Definición
 
 Este principio establece que una clase debe tener una única responsabilidad o motivo para cambiar. Es decir, debe encargarse de una única cosa, de manera clara y separada de otras funciones del sistema. Si una clase requiere ser modificada por más de un motivo, significa que está violando este principio.
+
 En sistemas mal diseñados, es común encontrar clases que acumulan múltiples responsabilidades. Esto provoca que cualquier cambio, por mínimo que sea, pueda generar efectos inesperados en partes del código que no deberían verse afectadas. Además, dificulta la comprensión del sistema, complica su mantenimiento y lo vuelve más propenso a errores.
+
 Por ejemplo, si una misma clase gestiona datos, envía notificaciones, guarda información en la base de datos y genera comprobantes, cualquier modificación en una de esas funciones obliga a revisar y potencialmente modificar toda la clase. Esto hace que el código sea más frágil y difícil de mantener.
+
 Al separar las responsabilidades en diferentes clases, cada una se vuelve más fácil de entender, mantener y reutilizar. Además, el sistema en general se vuelve más robusto y predecible ante cambios.
 
 ## Aplicación del principio SRP al sistema de gestión de turnos
