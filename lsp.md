@@ -20,4 +20,4 @@ Aplicar correctamente este principio significa asegurarse de que todas las subcl
 
 ## Ejemplo del mundo real
 
-Pensemos en un enchufe estándar. Si fabricamos electrodomésticos que se enchufan a una toma común, esperamos que cualquiera de esos dispositivos funcione al conectarse. Si un nuevo electrodoméstico necesita un tipo de conexión diferente o hace saltar la llave de luz, entonces no respeta el contrato de uso del enchufe común, y se vuelve incompatible. Este ejemplo ilustra cómo romper el principio de Liskov genera fallos incluso cuando “heredamos” del mismo estándar.
+Pensemos en un enchufe estándar. Si fabricamos electrodomésticos que se enchufan a una toma corriente, esperamos que cualquiera de esos dispositivos funcione al conectarse. Si un nuevo electrodoméstico necesita un tipo de conexión diferente o hace saltar la llave de luz, entonces no respeta el contrato de uso del enchufe común, y se vuelve incompatible. Este ejemplo ilustra cómo romper el principio de Liskov genera fallos incluso cuando “heredamos” del mismo estándar.
