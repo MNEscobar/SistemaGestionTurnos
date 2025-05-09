@@ -53,16 +53,8 @@ Esto mejora el diseño, facilita las pruebas unitarias, reduce la probabilidad d
 ## Ejemplo del mundo real
 Imaginemos un restaurante donde un solo empleado toma los pedidos, cocina, atiende las mesas, cobra y lava los platos.
 
-Si esa persona falta o comete un error, afecta todo el sistema.
+Si esa persona falta o comete un error, afecta todo el sistema y no se puede escalar ni mejorar la eficiencia.
 
-No se puede escalar ni mejorar la eficiencia.
+En cambio si el restaurante tiene un mozo que toma pedidos, un cocinero que cocina, un cajero que cobra y un bachero que lava, crece la eficiencia y reduce la probabilidad que un error en una de las áres se extienda a las demás. 
 
-Al dividir responsabilidades:
-
-Un mozo toma pedidos.
-
-Un cocinero cocina.
-
-Un cajero cobra.
-
-Cada uno tiene una sola responsabilidad, clara y separada.
+Al dividir responsabilidades cada uno tiene una sola responsabilidad, clara y separada.
