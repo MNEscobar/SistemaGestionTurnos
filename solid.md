@@ -2,14 +2,14 @@ Los principios SOLID constituyen un conjunto de cinco reglas fundamentales para 
 
 El término SOLID es un acrónimo, lo que significa que cada una de sus letras representa uno de estos principios:
 
-- S – SRP: Single Responsibility Principle (Principio de Responsabilidad Única)
+- [S – SRP: Single Responsibility Principle (Principio de Responsabilidad Única)](srp.md)
 
-- O – OCP: Open/Closed Principle (Principio de Abierto/Cerrado)
+- [O – OCP: Open/Closed Principle (Principio de Abierto/Cerrado)](ocp.md)
 
-- L – LSP: Liskov Substitution Principle (Principio de Sustitución de Liskov)
+- [L – LSP: Liskov Substitution Principle (Principio de Sustitución de Liskov)](lsp.md)
 
-- I – ISP: Interface Segregation Principle (Principio de Segregación de Interfaces)
+- [I – ISP: Interface Segregation Principle (Principio de Segregación de Interfaces)](isp.md)
 
-- D – DIP: Dependency Inversion Principle (Principio de Inversión de Dependencias)
+- [D – DIP: Dependency Inversion Principle (Principio de Inversión de Dependencias)](ocp.md)
 
 A continuación, se presenta una explicación detallada de cada uno de estos principios.
