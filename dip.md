@@ -23,3 +23,10 @@ Lo mismo puede aplicarse a la generación de estadísticas en la clase Administr
 Imaginá una empresa que organiza eventos y tiene un sistema para contratar servicios como catering, música o iluminación. La persona encargada de coordinar eventos no necesita saber si el catering es provisto por un restaurante, un chef independiente o un food truck. Solo necesita que el servicio contratado cumpla con ciertas condiciones: entregar comida a cierta hora, para cierta cantidad de personas.
 
 En este caso, el coordinador depende de una abstracción de “servicio de catering”, no del proveedor específico. Esto le permite cambiar fácilmente de proveedor sin tener que replantear toda la organización del evento.
+
+
+## Diagrama de el Principio DIP aplicado al Sistema
+
+![Imagen](https://drive.google.com/uc?export=view&id=17-lG_x91jSKeHymx6_40aW192Vd72hfc)
+
+[Drive](https://drive.google.com/file/d/17-lG_x91jSKeHymx6_40aW192Vd72hfc/view?usp=sharing)
