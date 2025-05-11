@@ -38,7 +38,7 @@ Una forma de corregir esto es delegando las responsabilidades específicas a nue
 |---------------------------------|------------------------|------------------------|
 | Representar un turno	                 | Turno	        | (se mantiene)           |
 |Confirmar, cancelar, reprogramar turnos | Turno	        | estadoDelTurnos         |
-Enviar correos relacionados al turno     | Turno	        | servicioDeCorreoTurnos  |
+Enviar correos relacionados al turno     | Turno	        | notificador             |
 Generar resumen del turno	               | Turno	        | generadorDeResumenTurno |
 Asignar turnos a pacientes/médicos       | Administrador	| asignadorDeTurnos       |
 Calcular estadísticas del sistema        | Administrador	| generadorDeEstadísticas |
