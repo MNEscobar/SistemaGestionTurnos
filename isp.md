@@ -28,3 +28,5 @@ Un control remoto diseñado para múltiples dispositivos (TV, DVD, aire acondici
 ## Diagrama aplicado el principio ISP al Sistema
 
 ![Imagen](https://drive.google.com/uc?export=view&id=1DzA_VvA1cxzc-6ROvK-ma7oS61ER7Ut_)
+
+[Drive](https://drive.google.com/file/d/1DzA_VvA1cxzc-6ROvK-ma7oS61ER7Ut_/view?usp=sharing)
