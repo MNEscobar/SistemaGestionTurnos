@@ -23,3 +23,8 @@ Es importante aclarar que si en el futuro la clase Usuario comenzara a acumular 
 ## Ejemplo del mundo real
 
 Un control remoto diseñado para múltiples dispositivos (TV, DVD, aire acondicionado) puede terminar teniendo botones que no usamos nunca. En cambio, un control diseñado específicamente para la TV, con los botones justos, es más claro, cómodo y fácil de usar. El ISP busca exactamente eso: que cada “control” (clase) tenga solo los comandos que necesita.
+
+
+## Diagrama aplicado el principio ISP al Sistema
+
+![Imagen](https://drive.google.com/uc?export=view&id=1DzA_VvA1cxzc-6ROvK-ma7oS61ER7Ut_)
