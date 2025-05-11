@@ -12,4 +12,4 @@ El término SOLID es un acrónimo, cada una de sus letras representa uno de esto
 
 - [I – ISP: Interface Segregation Principle (Principio de Segregación de Interfaces)](isp.md)
 
-- [D – DIP: Dependency Inversion Principle (Principio de Inversión de Dependencias)](ocp.md)
+- [D – DIP: Dependency Inversion Principle (Principio de Inversión de Dependencias)](dip.md)
