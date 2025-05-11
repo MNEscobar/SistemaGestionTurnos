@@ -61,3 +61,9 @@ Si esa persona falta o comete un error, afecta todo el sistema y no se puede esc
 En cambio si el restaurante tiene un mozo que toma pedidos, un cocinero que cocina, un cajero que cobra y un bachero que lava, crece la eficiencia y reduce la probabilidad que un error en una de las áres se extienda a las demás. 
 
 Al dividir responsabilidades cada uno tiene una sola responsabilidad, clara y separada.
+
+## Estructura de clases modificada
+
+![Imagen](https://drive.google.com/uc?export=view&id=1hnVaRYNCGcY-uBTQRPq5krax5xhPcjRQ)
+
+[Drive](https://drive.google.com/file/d/1hnVaRYNCGcY-uBTQRPq5krax5xhPcjRQ/view?usp=sharing)
