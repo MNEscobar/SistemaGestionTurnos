@@ -21,3 +21,10 @@ En ambos casos, el principio nos ayuda a aislar los cambios y evitar afectar lo 
 
 ## Ejemplo del mundo real
 Imaginemos un restaurante que tiene un menú impreso. Cada vez que quiere agregar un nuevo plato, tiene que volver a imprimir toda la carta. Esto genera un gasto innecesario y riesgo de errores. En cambio, si el menú está pensado de forma modular, con secciones editables o digitales, el restaurante puede agregar opciones nuevas sin modificar lo que ya funciona. Este enfoque, que separa lo existente de lo nuevo sin afectar lo anterior, es exactamente lo que busca el principio de abierto/cerrado.
+
+
+## Grafico del Principio OCP aplicado al sistema 
+
+![Imagen](https://drive.google.com/uc?export=view&id=1pNRaGwQKxnDWHSFyed6pwB49bHRAsxIQ)
+
+[Drive](https://drive.google.com/file/d/1pNRaGwQKxnDWHSFyed6pwB49bHRAsxIQ/view?usp=sharing)
