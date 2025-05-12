@@ -98,4 +98,4 @@ Este caso de uso permite al médico visualizar su agenda de turnos, organizando 
 
 [Drive](https://drive.google.com/file/d/10ifbGYNAuF7UfngxwvN9xkXyOZ1xGrCO/view?usp=sharing)
 
-[Planillas escenarios casos de uso](https://docs.google.com/spreadsheets/d/13zP70Rb4vhZzoa_iHvP-ABAVd9V9eto1/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
+[Planillas escenarios casos de uso](https://docs.google.com/spreadsheets/d/1dYHPqzfYjYQJRPM5vr91LMCuK4R8jPov/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
