@@ -12,7 +12,7 @@ Estas tarjetas son útiles para pensar en el diseño de sistemas desde la perspe
 El Usuario es la clase base del sistema, que representa a cualquier persona registrada, ya sea paciente, médico o administrativo. Su principal responsabilidad es gestionar su autenticación y sus datos personales. Interactúa con el sistema de registro y otras clases derivadas según su rol.
 
 
-![CRC Usuario](https://drive.google.com/uc?export=view&id=1UHAS-9jTJmWhNI-kWkNaWXMvDgZkTTh3)
+![CRC Usuario](https://drive.google.com/file/d/1qUMG1d2-6_U25_1dHdYd9jZJs3U9lXNi/view?usp=sharing)
 
 
 
