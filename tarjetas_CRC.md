@@ -21,7 +21,7 @@ El Usuario es la clase base del sistema, que representa a cualquier persona regi
 El Paciente hereda de Usuario y representa a quienes utilizan el sistema para recibir atención médica. Puede reservar turnos, consultar sus citas y acceder a su historial médico. Colabora estrechamente con la clase Turno y Médico para llevar adelante sus acciones.
 
 
-![CRC Paciente](https://docs.google.com/spreadsheets/d/1MxjcvRRtPOE_us9GT1fspgmWW6t8bfCD/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
+![CRC Paciente](https://drive.google.com/file/d/1qUMG1d2-6_U25_1dHdYd9jZJs3U9lXNi/view?usp=sharing)
 
 #### Tarjeta CRC: Médico
 El Médico también hereda de Usuario y está encargado de brindar atención a los pacientes. Su rol incluye cargar historiales, gestionar su disponibilidad y visualizar sus turnos asignados. Colabora con Turno, Paciente e Historial Médico.
