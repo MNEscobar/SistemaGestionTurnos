@@ -12,7 +12,7 @@ Estas tarjetas son útiles para pensar en el diseño de sistemas desde la perspe
 El Usuario es la clase base del sistema, que representa a cualquier persona registrada, ya sea paciente, médico o administrativo. Su principal responsabilidad es gestionar su autenticación y sus datos personales. Interactúa con el sistema de registro y otras clases derivadas según su rol.
 
 
-![CRC Usuario](https://drive.google.com/file/d/1qUMG1d2-6_U25_1dHdYd9jZJs3U9lXNi/view?usp=sharing)
+![CRC Usuario](https://drive.google.com/uc?export=view&id=1UHAS-9jTJmWhNI-kWkNaWXMvDgZkTTh3)
 
 
 
@@ -21,7 +21,7 @@ El Usuario es la clase base del sistema, que representa a cualquier persona regi
 El Paciente hereda de Usuario y representa a quienes utilizan el sistema para recibir atención médica. Puede reservar turnos, consultar sus citas y acceder a su historial médico. Colabora estrechamente con la clase Turno y Médico para llevar adelante sus acciones.
 
 
-![CRC Paciente](https://drive.google.com/file/d/1ZNMRc_7GbwEUJyyG3RxCn7K6oqaHZp6B/view?usp=sharing)
+![CRC Paciente](https://drive.google.com/uc?export=view&id=1ZNMRc_7GbwEUJyyG3RxCn7K6oqaHZp6B)
 
 #### Tarjeta CRC: Médico
 El Médico también hereda de Usuario y está encargado de brindar atención a los pacientes. Su rol incluye cargar historiales, gestionar su disponibilidad y visualizar sus turnos asignados. Colabora con Turno, Paciente e Historial Médico.
