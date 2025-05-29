@@ -12,37 +12,49 @@ Estas tarjetas son útiles para pensar en el diseño de sistemas desde la perspe
 El Usuario es la clase base del sistema, que representa a cualquier persona registrada, ya sea paciente, médico o administrativo. Su principal responsabilidad es gestionar su autenticación y sus datos personales. Interactúa con el sistema de registro y otras clases derivadas según su rol.
 
 
-![CRC Usuario](https://drive.google.com/uc?export=view&id=1UHAS-9jTJmWhNI-kWkNaWXMvDgZkTTh3)
+![CRC Usuario](https://drive.google.com/uc?export=view&id=1ZsgvDOmbY_v7DM733NGxl12iTNssZayL)
 
 
+#### Tarjeta CRC:Perfil
+La clase Perfil encapsula la información de presentación de un usuario, como su foto, biografía y roles asignados. Sirve para formatear y exponer los datos que el sistema muestra en la interfaz de usuario. Interactúa principalmente con la clase Usuario, que delega en Perfil la tarea de “armar” la vista de sus datos personales.
 
+![CRC Perfil](https://drive.google.com/uc?export=view&id=1PZ2fAC1jGntbctAT9MnZWKYA4bqSRRaC)
 
 #### Tarjeta CRC: Paciente
 El Paciente hereda de Usuario y representa a quienes utilizan el sistema para recibir atención médica. Puede reservar turnos, consultar sus citas y acceder a su historial médico. Colabora estrechamente con la clase Turno y Médico para llevar adelante sus acciones.
 
+![CRC Paciente](https://drive.google.com/uc?export=view&id=1eZxfUR3Q2GjMmbpq6lAylCyE9skemw3A)
 
-![CRC Paciente](https://drive.google.com/uc?export=view&id=1ZNMRc_7GbwEUJyyG3RxCn7K6oqaHZp6B)
+
+### Tarjeta CRC: Historial
+La clase Historial gestiona el conjunto de registros médicos asociados a un Paciente. Almacena entradas de tipo RegistroMedico y provee operaciones para agregar nuevos registros o consultar la lista completa. Se conecta con Paciente, que accede a él para revisar su información clínica, y con Médico, que añade anotaciones tras cada consulta.
+
+![CRC Historial](https://drive.google.com/uc?export=view&id=1uuFGQaROtbfSCgV81ni18W4w20FLapEB)
 
 #### Tarjeta CRC: Médico
 El Médico también hereda de Usuario y está encargado de brindar atención a los pacientes. Su rol incluye cargar historiales, gestionar su disponibilidad y visualizar sus turnos asignados. Colabora con Turno, Paciente e Historial Médico.
 
 
-![CRC Médico](https://drive.google.com/uc?export=view&id=1g7vt1E4icDCsTZnS4M_vxXmkM7fDCnjf)
+![CRC Médico](https://drive.google.com/uc?export=view&id=1Uj6NehMJN9AwsTHKR9LvmTODRvDE5zoV)
+
+#### Trajeta CRC: Agenda
+La clase Agenda modela el calendario de disponibilidad de un profesional de la salud. Mantiene una colección de franjas horarias (slots) que el Médico puede agregar o eliminar según su conveniencia. Colabora estrechamente con Médico, que invoca sus métodos para actualizar sus turnos disponibles, y con Turno, al validar si una fecha y hora solicitadas están libres.
+
+![CRC Agenda](https://drive.google.com/uc?export=view&id=1bc7kXLKoOYXh9YVvE2Ux-UM3NBkuOFEU)
 
 #### Tarjeta CRC: Administrativo
 El Administrativo, una subclase de Usuario, cumple funciones de gestión como registrar usuarios, organizar turnos y mantener el orden administrativo. Interactúa con el sistema de gestión de usuarios y con Turno para modificar datos o asignaciones.
 
 
-![CRC Administrativo](https://drive.google.com/uc?export=view&id=1iB1J7rYfpsRZQcju1tuFjiO374Z4T2qY)
-
+![CRC Administrativo](https://drive.google.com/uc?export=view&id=1-OO0SJB4f2a4TUHLaor9hb5XYcAV-rrB)
 
 
 #### Tarjeta CRC: Turno
 La clase Turno es clave para el funcionamiento del sistema. Representa una cita médica programada, con fecha, hora, paciente y médico asociados. Se comunica con Paciente, Médico y el sistema de notificaciones para reflejar el estado y coordinación de la atención médica.
 
 
-![CRC Turno](https://drive.google.com/uc?export=view&id=1XL7KlIIihU8d6SeBHNJHX3IGFfy-r8Px)
+![CRC Turno](https://drive.google.com/uc?export=view&id=15kwkwpnz9MfzozPBJCpU_P-El19_qt6e)
 
 
 
-[Planilla Tarjetas CRC](https://docs.google.com/spreadsheets/d/13zP70Rb4vhZzoa_iHvP-ABAVd9V9eto1/edit?usp=drive_link&ouid=113574952751855851904&rtpof=true&sd=true)
+[Planilla Tarjetas CRC](https://docs.google.com/spreadsheets/d/1aLxJNcpcsDVDc4BZh3GDFItkQbP6LOxz/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
