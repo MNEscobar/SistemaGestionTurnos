@@ -21,4 +21,4 @@
 ![CLAE_caso5](https://drive.google.com/uc?export=view&id=1RpLhLA1xTyJfUuXfzTrrtfUMzZoSmcyY)
 
 
-[Plantillas Matriz CLAE](https://docs.google.com/spreadsheets/d/162t6NJ882zoJdwmwsfv8CmqIemn37Hb0/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
+[Planillas Matriz CLAE](https://docs.google.com/spreadsheets/d/162t6NJ882zoJdwmwsfv8CmqIemn37Hb0/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
