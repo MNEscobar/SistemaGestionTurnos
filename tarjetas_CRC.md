@@ -42,7 +42,7 @@ La clase Agenda modela el calendario de disponibilidad de un profesional de la s
 
 ![CRC Agenda](https://drive.google.com/uc?export=view&id=1bc7kXLKoOYXh9YVvE2Ux-UM3NBkuOFEU)
 
-#### Tarjeta CRC: Administrativo
+#### Tarjeta CRC: Administrador
 El Administrativo, una subclase de Usuario, cumple funciones de gestión como registrar usuarios, organizar turnos y mantener el orden administrativo. Interactúa con el sistema de gestión de usuarios y con Turno para modificar datos o asignaciones.
 
 
