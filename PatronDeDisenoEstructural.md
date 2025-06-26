@@ -19,32 +19,32 @@ Los patrones estructurales refuerzan varios principios SOLID al nivel de arquite
 ---
 
 ### Principio de Responsabilidad Única (SRP)
-Muchos de estos patrones ayudan a separar preocupaciones (por ejemplo, `Facade` aísla una interfaz simple del sistema interno).
+Muchos de estos patrones ayudan a separar preocupaciones (por ejemplo, *Facade* aísla una interfaz simple del sistema interno).
 
 ---
 
 ### Principio de Abierto/Cerrado (OCP)
-`Decorator` permite extender funcionalidades sin modificar el objeto original.
+*Decorator* permite extender funcionalidades sin modificar el objeto original.
 
 ---
 
 ### Principio de Sustitución de Liskov (LSP)
-Estructuras como `Composite` y `Proxy` permiten sustituir componentes sin alterar el comportamiento esperado.
+Estructuras como *Composite* y *Proxy* permiten sustituir componentes sin alterar el comportamiento esperado.
 
 ---
 
 ### Principio de Segregación de Interfaces (ISP)
-`Adapter` puede crear interfaces más específicas para clientes concretos sin modificar la clase adaptada.
+*Adapter* puede crear interfaces más específicas para clientes concretos sin modificar la clase adaptada.
 
 ---
 
 ### Principio de Inversión de Dependencias (DIP)
-Al usar interfaces como en `Proxy` o `Adapter`, el sistema depende de abstracciones, no de implementaciones concretas.
+Al usar interfaces como en *Proxy* o *Adapter*, el sistema depende de abstracciones, no de implementaciones concretas.
 
 ---
 
 ## Propósito y Tipo de patrón
-Para simplificar y desacoplar la interacción entre la capa de presentación (por ejemplo, la UI web o móvil) y los distintos subsistemas implicados en la creación de un turno como: `GestionDeTurno`, `CreadorTurno`, `Agenda` y `NotificadorTurno` se elige aplicar el patrón **Facade**, un patrón estructural cuya finalidad es proporcionar una interfaz única y coherente que oculte la complejidad interna del sistema y reduzca las dependencias directas de los clientes hacia múltiples clases.
+Para simplificar y desacoplar la interacción entre la capa de presentación (por ejemplo, la UI web o móvil) y los distintos subsistemas implicados en la creación de un turno como: `GestionDeTurno`, `CreadorTurno`, `Agenda` y `NotificadorTurno` se elige aplicar el patrón ***Facade***, un patrón estructural cuya finalidad es proporcionar una interfaz única y coherente que oculte la complejidad interna del sistema y reduzca las dependencias directas de los clientes hacia múltiples clases.
 
 ---
 
