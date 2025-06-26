@@ -59,7 +59,7 @@ Este flujo disperso genera un fuerte acoplamiento entre la capa de presentación
 Para resolverlo, introducimos la clase TurnosFachada, un **Facade** que actúa como punto único de entrada al subsistema de turnos.
 
 ### Función de la nueva clase
-- ** Unificación de interfaz:** los clientes solo interactúan con `TurnosFachada.solicitarTurno()`, ignorando los pasos intermedios.
+- **Unificación de interfaz:** los clientes solo interactúan con `TurnosFachada.solicitarTurno()`, ignorando los pasos intermedios.
 - **Reducción de acoplamiento:** si cambia la forma de crear un turno por ej: nuevos pasos de validación o notificación, solo se modifica `TurnosFachada` y/o sus colaboradores, sin tocar controladores ni servicios externos.
 - **Mayor cohesión y claridad:** toda la lógica de orquestación permanece en un único lugar, facilitando la lectura, el testing y la documentación.
 
