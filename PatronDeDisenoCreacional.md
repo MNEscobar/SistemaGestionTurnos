@@ -19,7 +19,7 @@ Los patrones creacionales fortalecen la aplicación de SOLID al momento de crear
 
 ---
 
-### Principio de Responsabilidad Única (SRP)
+#### Principio de Responsabilidad Única (SRP)
 Separan la lógica de creación de objetos de la lógica de negocio. Por ejemplo, una clase TurnoFactory crea objetos Turno, mientras que GestorDeTurnos solo se encarga de gestionar.
 
 ---
@@ -29,17 +29,17 @@ Permiten extender el comportamiento sin modificar las clases existentes. Por eje
 
 ---
 
-### Principio de Sustitución de Liskov (LSP)
+#### Principio de Sustitución de Liskov (LSP)
 Favorecen el uso de clases base o interfaces para crear objetos, asegurando que cualquier clase derivada pueda sustituirse sin alterar el funcionamiento del sistema.
 
 ---
 
-### Principio de Segregación de Interfaces (ISP)
+#### Principio de Segregación de Interfaces (ISP)
 Respetan el principio al construir interfaces específicas para los objetos a crear.
 
 ---
 
-### Principio de Inversión de Dependencias (DIP)
+#### Principio de Inversión de Dependencias (DIP)
 Estos patrones promueven que el código dependa de abstracciones y no de clases concretas, lo cual es exactamente lo que este principio estipula.
 
 ---
@@ -57,3 +57,9 @@ La motivación principal para aplicar el patrón Factory Method en este sistema 
 Al aplicar el patrón, se introduce una clase `CreadorTurno`, que encapsula toda la lógica necesaria para construir un turno válido a partir de un `Slot` previamente seleccionado por el paciente, y el paciente autenticado en el sistema. Esta clase se encarga de validar la disponibilidad del horario, crear el objeto `Turno`, asociar al médico correspondiente (a partir del slot), registrar la reserva en `Agenda` y configurar el notificador. De este modo, `GestorDeTurnos` solo debe delegar la creación a través del método `crearTurno(slot, paciente)`, sin preocuparse por cómo se construye el turno en sí. Esto mejora la organización del código, permite centralizar las reglas de construcción y facilita futuras mejoras en la lógica de creación sin afectar el resto del sistema.
 
 ---
+
+## Estructura de Clases
+
+![Imagen](https://drive.google.com/uc?export=view&id=1fbZBMvx-B4QPKf2u4PReQkCcCRTiVHRe)
+
+https://drive.google.com/file/d/1fbZBMvx-B4QPKf2u4PReQkCcCRTiVHRe/view?usp=sharing
