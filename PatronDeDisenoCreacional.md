@@ -62,4 +62,4 @@ Al aplicar el patrón, se introduce una clase `CreadorTurno`, que encapsula toda
 
 ![Imagen](https://drive.google.com/uc?export=view&id=1fbZBMvx-B4QPKf2u4PReQkCcCRTiVHRe)
 
-https://drive.google.com/file/d/1fbZBMvx-B4QPKf2u4PReQkCcCRTiVHRe/view?usp=sharing
+[Drive](https://drive.google.com/file/d/1fbZBMvx-B4QPKf2u4PReQkCcCRTiVHRe/view?usp=sharing)
