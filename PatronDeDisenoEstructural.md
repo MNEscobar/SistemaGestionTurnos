@@ -51,9 +51,11 @@ Para simplificar y desacoplar la interacción entre la capa de presentación (po
 ## Motivación
 En el diseño actual, cualquier cliente por ejemplo, un controlador web que desee gestionar la reserva de un turno debe conocer y orquestar directamente múltiples componentes:
 
-- 1- Invocar a `GestionDeTurno` para validar los datos del paciente y la elección de especialidad o médico.
-- 2- Llamar a `CreadorTurno` para construir la instancia de `Turno`, implicando validaciones de disponibilidad, creación del objeto, registro en la `Agenda` y programación de la notificación con `NotificadorTurno`.
-- 3- Capturar la excepción de disponibilidad si el `Slot` ya está ocupado, o procesar la respuesta en el flujo de la aplicación.
+1- Invocar a `GestionDeTurno` para validar los datos del paciente y la elección de especialidad o médico.
+
+2- Llamar a `CreadorTurno` para construir la instancia de `Turno`, implicando validaciones de disponibilidad, creación del objeto, registro en la `Agenda` y programación de la notificación con `NotificadorTurno`.
+
+3- Capturar la excepción de disponibilidad si el `Slot` ya está ocupado, o procesar la respuesta en el flujo de la aplicación.
 
 Este flujo disperso genera un fuerte acoplamiento entre la capa de presentación (o cualquier cliente) y la lógica interna de la aplicación, dificulta la prueba automática y hace que cada cambio en el proceso de creación de un turno requiera modificaciones en múltiples lugares.
 Para resolverlo, introducimos la clase TurnosFachada, un **Facade** que actúa como punto único de entrada al subsistema de turnos.
