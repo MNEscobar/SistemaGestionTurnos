@@ -67,6 +67,6 @@ Para resolverlo, introducimos la clase TurnosFachada, un **Facade** que actúa c
 
 ## Estructura de Clases
 
-![Imagen](https://drive.google.com/uc?export=view&id=1uaENbU12svlx0258uPP1GGcg6dtc-kHV)
+![Imagen](https://drive.google.com/uc?export=view&id=1VgJNcDNE-sO_h1exq93MG9NBCzSfi9xa)
 
-[Drive](https://drive.google.com/file/d/1uaENbU12svlx0258uPP1GGcg6dtc-kHV/view?usp=sharing)
+[Drive](https://drive.google.com/file/d/1VgJNcDNE-sO_h1exq93MG9NBCzSfi9xa/view?usp=sharing)
