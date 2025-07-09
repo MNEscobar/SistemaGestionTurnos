@@ -13,3 +13,12 @@ El término SOLID es un acrónimo, cada una de sus letras representa uno de esto
 - [I – ISP: Interface Segregation Principle (Principio de Segregación de Interfaces)](isp.md)
 
 - [D – DIP: Dependency Inversion Principle (Principio de Inversión de Dependencias)](dip.md)
+
+## Aplicación de Principios SOLID en Tres Clases principales del Sistema de Gestión de Turnos
+---
+
+### Clase Turno
+
+La clase `Turno` tiene como única responsabilidad representar los datos y el estado de un turno médico. Sus funciones deben limitarse a almacenar información como la fecha y hora del turno, el médico asignado, el paciente correspondiente y el estado del turno (pendiente, confirmado, cancelado, etc.).
+
+Para cumplir con el SRP, esta clase no debe encargarse de tareas como notificar al paciente o persistir información en la base de datos. En su lugar, debe delegar esas responsabilidades a otras clases especializadas, como `NotificadorTurno`.
