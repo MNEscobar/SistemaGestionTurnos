@@ -39,9 +39,9 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
    
 | Caso de uso        | Registro de usuarios                                                        |
 |--------------------|-----------------------------------------------------------------------------|
-| **Actores**        | Pacientes, Médicos y Administrativos                                        |
-| **Descripción**    | El administrativo registra los datos al centro de salud y crea un usuario   |
-| **flujo principal**| 1. El administrativo ingresa al sistema con sus credenciales                |
+| **Actores**        | Pacientes, Médicos y Administrador                                          |
+| **Descripción**    | El administrador registra los datos al centro de salud y crea un usuario    |
+| **flujo principal**| 1. El administrador ingresa al sistema con sus credenciales                 |
 |                    | 2. Selecciona "Registrar nuevo usuario"                                     |
 |                    | 3. Completa los datos del usuario                                           |
 |                    | 4. Guarda la información del usuario                                        |
@@ -55,7 +55,7 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
 
 | **Caso de uso**    | Reservar un turno                                              |                         
 |--------------------|----------------------------------------------------------------|
-| **Actores**        | Cliente                                                        |
+| **Actores**        | Paciente                                                       |
 | **Descripción**    | El cliente seleeciona un servicio y reserva un turno disponible|
 | **Flujo principal**| 1. El cliente accede al sistema                                |  
 |                    | 2. Selecciona un servicio                                      |
@@ -78,7 +78,7 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
 | **Precondiciones**   | Debe existir un turno asignado en el sistema                                         |
 | **Postcondición**    | Los usuarios quedan informados sobre la confirmación o cancelación del turno         |
 | **Extiende a**       | "Gestionar turnos"                                                                   |
-| **Hereda de**       | "Reservar turno"                                                                      |
+| **Hereda de**        | "Reservar turno"                                                                     |
 
 ### Caso 4
 | **Caso de uso**      | Almacenar Historial Médico                                              |
