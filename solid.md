@@ -14,6 +14,7 @@ El término SOLID es un acrónimo, cada una de sus letras representa uno de esto
 
 - [D – DIP: Dependency Inversion Principle (Principio de Inversión de Dependencias)](dip.md)
 
+---
 ## Aplicación de Principios SOLID en Tres Clases principales del Sistema de Gestión de Turnos
 ---
 
