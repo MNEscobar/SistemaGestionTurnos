@@ -118,7 +118,7 @@ Cuando un cliente pide una "pizza", no necesita conocer todos los ingredientes n
 
 ## Boceto inicial del diseño de clases  
 
-![Diagrama de Clases](https://drive.google.com/uc?export=view&id=1AFqNseLLikIFrPLWHkUTpDedohf1t2CE)
+![Diagrama de Clases](https://drive.google.com/uc?export=view&id=1Uo7BZJ2SxzHQbfhrLXx76ZvDNwXrzNv1)
 
-[Ver en Drive](https://drive.google.com/file/d/1AFqNseLLikIFrPLWHkUTpDedohf1t2CE/view?usp=drive_link)
+[Ver en Drive](https://drive.google.com/file/d/1Uo7BZJ2SxzHQbfhrLXx76ZvDNwXrzNv1/view?usp=sharing)
 
