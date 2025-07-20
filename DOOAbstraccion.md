@@ -13,3 +13,70 @@ Muchos patrones de diseño se basan en la abstracción para separar responsabili
 - Factory Method o Abstract Factory: abstraen el proceso de creación de objetos.
 - Strategy: permite definir una familia de algoritmos intercambiables mediante una interfaz común.
 - Observer: abstrae la relación entre un sujeto y sus observadores para permitir una comunicación desacoplada.
+
+---
+
+## Ejemplo en el proyecto
+
+![Imagen](https://drive.google.com/uc?export=view&id=1fbZBMvx-B4QPKf2u4PReQkCcCRTiVHRe)
+
+[Drive](https://drive.google.com/file/d/1fbZBMvx-B4QPKf2u4PReQkCcCRTiVHRe/view?usp=sharing)
+
+El diseño del sistema de turnos aplica el principio de abstracción al modelar entidades y comportamientos relevantes del dominio médico de forma simplificada.
+
+Por ejemplo, la clase Turno representa únicamente los datos necesarios para gestionar un turno: médico, paciente, motivo, estado, y un slot con día y hora.
+No incluye detalles clínicos, administrativos ni del contexto externo, lo que permite centrarse en la lógica específica del módulo de turnos.
+
+Además, el sistema define interfaces como notificadorTurno, gestionDeTurno y creadorTurno, que abstraen comportamientos clave del sistema sin acoplarse a una implementación concreta. Esto permite que distintas clases implementen la misma funcionalidad de diferentes maneras, sin afectar al resto del sistema.
+
+### Código de ejemplo
+
+public class Turno {
+    private Paciente paciente;
+    private Medico medico;
+    private Slot slot;
+    private String motivo;
+    private TurnoEstado estado;
+    private boolean notificado;
+
+    public Turno(Paciente paciente, Medico medico, Slot slot, String motivo) {
+        this.paciente = paciente;
+        this.medico = medico;
+        this.slot = slot;
+        this.motivo = motivo;
+        this.estado = TurnoEstado.PENDIENTE;
+        this.notificado = false;
+    }
+
+    public Paciente getPaciente() {
+        return paciente;
+    }
+
+    public Medico getMedico() {
+        return medico;
+    }
+
+    public Slot getSlot() {
+        return slot;
+    }
+
+    public String getMotivo() {
+        return motivo;
+    }
+
+    public TurnoEstado getEstado() {
+        return estado;
+    }
+
+    public boolean isNotificado() {
+        return notificado;
+    }
+
+    public void marcarComoNotificado() {
+        this.notificado = true;
+    }
+
+    public String detalleTurno() {
+        return "Turno con Dr. " + medico.getNombre() + " el " + slot.getFechaHora();
+    }
+}
