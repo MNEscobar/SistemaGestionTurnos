@@ -39,7 +39,7 @@ public class Paciente {
     private String apellido;
     private Date fechaNacimiento;
     private String email;
-    private String obraSocial; // Atributo específico del paciente
+    private String obraSocial; 
 
     public Paciente(String dni, String nombre, String apellido, Date fechaNacimiento, String email, String obraSocial) {
         this.dni = Objects.requireNonNull(dni, "El DNI no puede ser nulo.");
