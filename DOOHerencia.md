@@ -67,13 +67,12 @@ public abstract class Usuario {
         this.apellido = apellido;
         this.fechaNacimiento = fechaNacimiento;
         this.email = email;
-        this.password = password; // En un sistema real, la contraseña no se almacenaría en texto plano
+        this.password = password; 
         this.perfil = perfil;
     }
 
     public void registrar() {
         System.out.println("DEBUG: Usuario " + nombre + " " + apellido + " (DNI: " + dni + ") registrado.");
-        // Lógica común de registro (ej. guardar en base de datos, validar campos)
     }
 
     public boolean iniciarSesion(String email, String password) {
