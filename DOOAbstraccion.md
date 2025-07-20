@@ -31,13 +31,14 @@ Además, el sistema define interfaces como notificadorTurno, gestionDeTurno y cr
 
 ### Código de ejemplo
 
+```java
 public class Turno {
     private Paciente paciente;
     private Medico medico;
     private Slot slot;
     private String motivo;
     private TurnoEstado estado;
-    private boolean notificado;
+    private boolean notificado;    
 
     public Turno(Paciente paciente, Medico medico, Slot slot, String motivo) {
         this.paciente = paciente;
@@ -80,3 +81,4 @@ public class Turno {
         return "Turno con Dr. " + medico.getNombre() + " el " + slot.getFechaHora();
     }
 }
+```
