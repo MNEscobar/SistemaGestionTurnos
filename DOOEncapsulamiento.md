@@ -30,6 +30,7 @@ El encapsulamiento evita el acceso directo y la manipulación de los datos inter
 En el sistema de gestión de turnos, el fundamento del encapsulamiento se aplica consistentemente para asegurar la integridad de los datos y promover la modularidad del diseño. Cada clase agrupa sus datos con sus comportamientos que los manipulan, manteniendo los detalles internos ocultos del acceso externo directo. Esta práctica asegura que el estado interno de un objeto sea inaccesible, forzando toda interacción a través de una interfaz pública definida.
 Cada entidad del sistema, se modela como una unidad autónoma responsable de la gestión de sus propios datos. Los atributos de estas clases son protegidos, y cualquier modificación o consulta de su estado se canaliza mediante métodos públicos. Estos métodos actúan como puertas de control, encapsulando la lógica de negocio, las validaciones y las transiciones de estado, garantizando que el objeto siempre permanezca en un estado válido y consistente.
 
+### Código de ejemplo
 
 ```java
 
