@@ -14,9 +14,10 @@ El encapsulamiento evita el acceso directo y la manipulación de los datos inter
 
  ### Relación con patrones de diseño
  El encapsulamiento es un tema recurrente y una base para la mayoría de los patrones de diseño:
-- Patrones creacionales (Factory Method, Singleton, Builder): Estos patrones encapsulan la lógica de creación de objetos. **Factory Method**, encapsula la lógica de decidir qué clase concreta crear, liberando al cliente de conocer ese detalle. **Singleton** encapsula la única instancia de una clase y su acceso, controlando estrictamente su creación. **Builder** encapsula el proceso paso a paso de construir objetos complejos, presentando una interfaz simplificada al cliente.
-- Patrones Estructurales (Facade, Decorator): El Facade encapsula un subsistema complejo detrás de una interfaz simple, ocultando las interacciones entre múltiples clases. El Decorator encapsula el objeto original que se decora.
-- Patrones de Comportamiento (Strategy, State): En el Patrón State encapsula un estado y delega el comportamiento específico a un objeto, ocultando la lógica de transición y los detalles de cada estado. El Patrón Strategy encapsula diferentes algoritmos, permitiendo que un cliente cambie su comportamiento sin conocer los detalles de cada estrategia.
+- Patrones creacionales (Factory Method, Singleton, Builder): Estos patrones encapsulan la lógica de creación de objetos.
+**Factory Method**, encapsula la lógica de decidir qué clase concreta crear, liberando al cliente de conocer ese detalle. **Singleton** encapsula la única instancia de una clase y su acceso, controlando estrictamente su creación. **Builder** encapsula el proceso paso a paso de construir objetos complejos, presentando una interfaz simplificada al cliente.
+- Patrones Estructurales (Facade, Decorator): El **Facade** encapsula un subsistema complejo detrás de una interfaz simple, ocultando las interacciones entre múltiples clases. El **Decorator** encapsula el objeto original que se decora.
+- Patrones de Comportamiento (Strategy, State): En el Patrón **State** encapsula un estado y delega el comportamiento específico a un objeto, ocultando la lógica de transición y los detalles de cada estado. El Patrón **Strategy** encapsula diferentes algoritmos, permitiendo que un cliente cambie su comportamiento sin conocer los detalles de cada estrategia.
 
  ---
 
