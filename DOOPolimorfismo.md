@@ -47,7 +47,6 @@ class PendienteState implements TurnoEstado {
 }
 
 class ConfirmadoState implements TurnoEstado {
-    @Override
     public void cancelar(Turno turno) {
     }
     public void confirmar(Turno turno) {
