@@ -1,2 +1,2 @@
-- [Tarjetac CRC](tarjetas_CRC.md)
+- [Tarjetac CRC](https://docs.google.com/spreadsheets/d/1aLxJNcpcsDVDc4BZh3GDFItkQbP6LOxz/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
 - [Matriz CLAE](https://docs.google.com/spreadsheets/d/1ckpuNt_62PG63qxkA_qsFsTRmEjDY09g/edit?usp=sharing&ouid=113574952751855851904&rtpof=true&sd=true)
