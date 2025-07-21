@@ -15,7 +15,7 @@
 - **Caso de Uso 2 - Reservar turno**
 #### El paciente ingresa al sistema y solicita un turno médico según la disponibilidad horaria del especialista selecionado.
 
-![Caso de uso 2](https://drive.google.com/uc?export=view&id=1fWz1h2JJjvcnnUBrHcVVeX7MGeVniPd8)
+![Caso de uso 2](https://drive.google.com/uc?export=view&id=17m29CRySmUq7h4N4FwEPREBhNxnO643o)
 
 [Drive](https://drive.google.com/file/d/1osZu6SjdqNu_xCsfZ_XO02kscfx6yemi/view?usp=sharing)
 
