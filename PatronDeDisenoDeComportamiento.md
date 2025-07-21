@@ -62,6 +62,6 @@ La clase `Turno` pasa a tener solo un atributo `estado: EstadoTurno` y cada llam
 
 ## Estructura de Clases
 
-![Imagen](https://drive.google.com/uc?export=view&id=1XkarsGBcwnosgVLXuCBL_cnTD01w5mdF)
+![Imagen](https://drive.google.com/uc?export=view&id=16ey4nq-8FFqqwQDazYs7a0P5qgJ9fIVP)
 
-[Drive](https://drive.google.com/file/d/1XkarsGBcwnosgVLXuCBL_cnTD01w5mdF/view?usp=sharing)
+[Drive](https://drive.google.com/file/d/16ey4nq-8FFqqwQDazYs7a0P5qgJ9fIVP/view?usp=sharing)
