@@ -22,11 +22,80 @@ El polimorfismo es un elemento central y facilitador de numerosos patrones de di
 
 [Drive](https://drive.google.com/file/d/16ey4nq-8FFqqwQDazYs7a0P5qgJ9fIVP/view?usp=sharing)
 
-En el sistema de gestión de turnos, el polimorfismo permite que distintas entidades respondan a un mismo mensaje de manera diferente. La aplicación más clara se ve en la gestión del estado de la clase Turno. 
+En el sistema de gestión de turnos, el polimorfismo permite que distintas entidades respondan a un mismo mensaje de manera diferente. La aplicación más clara se ve en la gestión del estado de la clase `Turno`. 
 
-Turno delega el manejo de operaciones como confirmar() o cancelar() a su objeto de estado actual, el cual implementa una interfaz común. El polimorfismo asegura que la lógica específica para cada estado se ejecute, sin que Turno necesite saber la implementación concreta.
-De forma similar, en la jerarquía de Usuario, el polimorfismo permite tratar colecciones de Pacientes, Medicos y Administradors de forma uniforme para operaciones comunes como iniciarSesion(). Cada tipo de usuario responde de manera especializada, sin que el código llamador deba conocer el tipo exacto.
+`Turno` delega el manejo de operaciones como `confirmar()` o `cancelar()` a su objeto de estado actual, el cual implementa una interfaz común. El polimorfismo asegura que la lógica específica para cada estado se ejecute, sin que Turno necesite saber la implementación concreta.
+De forma similar, en la jerarquía de `Usuario`, el polimorfismo permite tratar colecciones de `Pacientes`, `Medicos` y `Administrador` de forma uniforme para operaciones comunes como `iniciarSesion()`. Cada tipo de usuario responde de manera especializada, sin que el código llamador deba conocer el tipo exacto.
 
 Esta aplicación del polimorfismo reduce el acoplamiento y elimina lógica condicional compleja, favoreciendo un diseño adaptable y fácil de extender con nuevas funcionalidades sin modificar el código existente.
 
 ```java
+
+interface TurnoEstado {
+    void cancelar(Turno turno);
+    void confirmar(Turno turno);
+    void notificar(Turno turno);
+}
+
+class PendienteState implements TurnoEstado {
+    public void cancelar(Turno turno) {
+    }
+    public void confirmar(Turno turno) {
+    }
+    public void notificar(Turno turno) {
+    }
+}
+
+class ConfirmadoState implements TurnoEstado {
+    @Override
+    public void cancelar(Turno turno) {
+    }
+    public void confirmar(Turno turno) {
+    }
+    public void notificar(Turno turno) {
+    }
+}
+
+class Turno {
+    private String id;
+    private TurnoEstado estadoActual;
+
+    public Turno(String id) {
+        this.id = id;
+        this.estadoActual = new PendienteState();
+    }
+    public void cancelar() {
+        estadoActual.cancelar(this);
+    }
+    public void confirmar() {
+        estadoActual.confirmar(this);
+    }
+    public void notificar() {
+        estadoActual.notificar(this);
+    }
+    public void setEstado(TurnoEstado nuevoEstado) {
+        this.estadoActual = nuevoEstado;
+    }
+    public String getId() {
+        return id;
+    }
+}
+
+interface NotificadorTurno {
+    void programarNotificacion(Turno turno, Date fechaEnvio);
+    void notificar(Turno turno);
+}
+
+class EmailNotificador implements NotificadorTurno {
+    public void programarNotificacion(Turno turno, Date fechaEnvio) {
+    }
+
+    public void notificar(Turno turno) {
+    }
+}
+
+class Medico {
+}
+
+class Paciente {
+}
